@@ -1,0 +1,40 @@
+{
+  "complete_release_gate": "FAIL",
+  "counts": {
+    "campuses": 418,
+    "campuses_by_borough": {
+      "Bronx": 145,
+      "Brooklyn": 133,
+      "Manhattan": 80,
+      "Queens": 50,
+      "Staten Island": 10
+    },
+    "expected_campuses": 418,
+    "expected_schools": 286,
+    "pins": 384,
+    "pins_by_borough": {
+      "Bronx": 133,
+      "Brooklyn": 126,
+      "Manhattan": 71,
+      "Queens": 46,
+      "Staten Island": 8
+    },
+    "schools": 286,
+    "schools_by_authorizer": {
+      "NYCDOE": 36,
+      "Regents": 60,
+      "SUNY": 190
+    }
+  },
+  "map_errors": [],
+  "mutation_checks": {
+    "closed school added": true,
+    "duplicate campus": true,
+    "missing campus": true,
+    "missing school": true,
+    "wrong borough point": true,
+    "wrong school association": true
+  },
+  "source_errors": [],
+  "unresolved_source_records": 41
+}
